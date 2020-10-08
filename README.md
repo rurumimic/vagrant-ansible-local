@@ -17,7 +17,7 @@ Vagrant: [Ansible Local Provisioner](https://www.vagrantup.com/docs/provisioning
     - Doc: [How to build your inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html)
   - [playbook.yml](provision/playbook.yml)
     - Doc: [Working with playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html)
-- **ca-trust**: for enterprise certificates
+- **ca-trust**: For enterprise certificates
   - enterprise.crt.sample
 
 ### External
@@ -32,7 +32,7 @@ By default, Vagrant will share your project directory (the directory with the `V
 
 ## Set up
 
-### Add a enterprise CA as a trusted certificate authority
+### (Option) Add a enterprise CA as a trusted certificate authority
 
 ```bash
 cp /path/to/enterprise.crt ./ca-trust
