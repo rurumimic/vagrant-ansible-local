@@ -22,8 +22,8 @@ Vagrant: [Ansible Local Provisioner](https://www.vagrantup.com/docs/provisioning
     - Doc: [How to build your inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html)
   - [playbook.yml](provision/playbook.yml)
     - Doc: [Working with playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html)
-- **ca-trust**: For enterprise certificates
-  - enterprise.crt.sample
+- _ca-trust (option)_: _for enterprise certificates_
+  - _enterprise.crt.sample_
 
 ### External
 
