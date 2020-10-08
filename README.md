@@ -2,6 +2,11 @@
 
 Vagrant: [Ansible Local Provisioner](https://www.vagrantup.com/docs/provisioning/ansible_local)
 
+## Downloads
+
+- [Vagrant](https://www.vagrantup.com/downloads)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
 ---
 
 ## Files
