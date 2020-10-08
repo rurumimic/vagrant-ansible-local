@@ -3,11 +3,8 @@
 *.crt
 *.pem
 
-# Created by https://www.toptal.com/developers/gitignore/api/vagrant,macos,code,ansible
-# Edit at https://www.toptal.com/developers/gitignore?templates=vagrant,macos,code,ansible
-
-### Ansible ###
-*.retry
+# Created by https://www.toptal.com/developers/gitignore/api/vagrant,macos,code
+# Edit at https://www.toptal.com/developers/gitignore?templates=vagrant,macos,code
 
 ### Code ###
 .vscode/*
@@ -55,4 +52,4 @@ Temporary Items
 ### Vagrant Patch ###
 *.box
 
-# End of https://www.toptal.com/developers/gitignore/api/vagrant,macos,code,ansible
+# End of https://www.toptal.com/developers/gitignore/api/vagrant,macos,code

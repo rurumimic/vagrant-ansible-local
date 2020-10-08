@@ -1,5 +1,9 @@
 # Vagrant with ansible_local
 
+To [Vagrant with ansible](https://github.com/rurumimic/vagrant-ansible)
+
+---
+
 Vagrant: [Ansible Local Provisioner](https://www.vagrantup.com/docs/provisioning/ansible_local)
 
 ## Downloads
@@ -13,7 +17,7 @@ Vagrant: [Ansible Local Provisioner](https://www.vagrantup.com/docs/provisioning
 
 ### Current directory
 
-- [.gitignore](.gitignore): Ignore [Vagrant, Ansible](https://www.toptal.com/developers/gitignore/api/vagrant,macos,code,ansible) and Certficates
+- [.gitignore](.gitignore): Ignore [Vagrant](https://www.toptal.com/developers/gitignore/api/vagrant,macos,code) and Certficates
 - [Vagrantfile](Vagrantfile): Set VMs (instances, cpu, memory, network, security...)
 - **provision**: Ansible configurations
   - [ansible.cfg](provision/ansible.cfg)
