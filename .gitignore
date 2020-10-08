@@ -1,3 +1,8 @@
+# Certificates
+*.cer
+*.crt
+*.pem
+
 # Created by https://www.toptal.com/developers/gitignore/api/vagrant,macos,code,ansible
 # Edit at https://www.toptal.com/developers/gitignore?templates=vagrant,macos,code,ansible
 

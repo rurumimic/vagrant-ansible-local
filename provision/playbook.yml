@@ -1,10 +1,14 @@
 ---
-- hosts: all
+- hosts: nodes
   tasks:
-    - name: ensure ntpd is at the latest version
+    - name: Who am I?
+      command: whoami # = vagrant
+    - name: Ensure ntpd is at the latest version
+      become: yes
       yum: pkg=ntp state=latest
       notify:
-      - restart ntpd
+      - Restart ntpd
   handlers:
-    - name: restart ntpd
+    - name: Restart ntpd
+      become: yes
       service: name=ntpd state=restarted
